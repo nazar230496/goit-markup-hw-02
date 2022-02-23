@@ -99,16 +99,7 @@ font-family: "Roboto",sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-
 color: #212121;
-}
-.main-caption {
-  font-family: "Roboto",sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-
-color: #212121;  
 }
 .caption-subtitle {
     font-family: Roboto;
@@ -158,6 +149,26 @@ font-weight: normal;
 font-size: 14px;
 color: rgba(255, 255, 255, 0.6);
   }
+   /* страница портфолио */
+   .portfolio-btn {
+       font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #212121;
+   }
+   .portfolio-btn:hover, .portfolio-btn:focus {
+background: #2196F3;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+color: #FFFFFF;
+   }
+
+
+
 
  
      
