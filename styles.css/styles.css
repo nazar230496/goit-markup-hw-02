@@ -1,0 +1,163 @@
+body {
+    background: #E5E5E5; 
+}
+ul {
+    list-style: none;
+
+}
+      /* логотип */
+.logo {
+
+font-family: "Raleway",sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.header-logo{
+    color: black;
+}
+        /* навигация по сайту */
+.link-nav {
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+color: #212121;
+
+}
+.link-nav:hover, .link-nav:focus {
+color:#2196F3;
+ }
+ 
+         /* почта и телефон шапка */
+ .mail-nav {
+
+font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+color: #757575;
+
+}
+.mail-nav:hover, .mail-nav:focus {
+    color:#2196F3;
+} 
+.tel-nav {
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+color: #757575;
+}
+.tel-nav:hover, .tel-nav:focus {
+   color:#2196F3; 
+}
+         /* main */
+.main-bg {
+ background: #2F303A;
+ }
+ .main-title { 
+font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+
+color: #FFFFFF;
+}
+.main-btn {
+font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+
+color: #FFFFFF;
+background: #2196F3;
+}
+.main-list {
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #757575;
+}
+.main-subtitle {
+    font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+color: #212121;
+}
+.main-heading {
+font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+
+color: #212121;
+}
+.main-caption {
+  font-family: "Roboto",sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+
+color: #212121;  
+}
+.caption-subtitle {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #212121;
+}
+.caption-text {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #757575;
+
+}
+   /* Футер */
+.footer {
+    background: #2F303A;
+}
+.footer-logo {
+
+font-family: "Raleway",sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.footer-logo{
+    color: #FFFFFF;
+}
+  /* Footer */
+  .footer-address {
+font-family: "Raleway",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: #FFFFFF;
+  }
+  .footer-link {
+      font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.6);
+  }
+
+ 
+     
