@@ -1,6 +1,17 @@
+:root {
+ --primery-text-color: #757575;
+  --second-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-background-colors: #ffffff;
+  --second-background-colors: #f5f4fa;
+  --footer-color: #2f303a;
+    }
 body {
+    color: var(--primery-text-color);
     background: #E5E5E5; 
     font-family: "Roboto",sans-serif;
+    font-size: 14px;
 }
 ul {
     list-style: none;
@@ -14,12 +25,11 @@ font-weight: 700;
 font-style: normal;
 font-size: 26px;
 line-height: 31px;
-letter-spacing: 0.03em;
-
-color: #2196F3;
+text-decoration: none;
+color:var(--accent-color);
 }
 .header-logo{
-    color: black;
+    color:var(--title-text-color);
 }
         /* навигация по сайту */
 .link-nav {
@@ -148,13 +158,14 @@ font-size: 16px;
 color: #212121;
 cursor: pointer;
    }
-   .portfolio-btn:hover, .portfolio-btn:focus {
+   .portfolio-btn:hover, 
+   .portfolio-btn:focus, 
+   .portfolio-btn:active {
 background: #2196F3;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-
-color: #FFFFFF;
+color:var(--second-text-color);
    }
 
 
