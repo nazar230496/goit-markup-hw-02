@@ -6,6 +6,7 @@
   --primery-background-colors: #ffffff;
   --second-background-colors: #f5f4fa;
   --footer-color: #2f303a;
+  --logo-color: #212121;
     }
 body {
     color: var(--primery-text-color);
@@ -26,12 +27,11 @@ font-family: "Raleway",sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-text-decoration: none;
 letter-spacing: 0.03em;
 color:var(--accent-color);
 }
 .header-logo{
-    color:#212121;
+    color:var(--logo-color)
 }
         /* навигация по сайту */
 .link-nav {
@@ -40,7 +40,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
-text-decoration: none;
 color: var(--title-text-color);
 
 }
@@ -55,7 +54,6 @@ font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
 color: var(--primery-text-color);
-text-decoration: none;
 
 }
 .mail-nav:hover, .mail-nav:focus {
@@ -66,7 +64,6 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
 letter-spacing: 0.02em;
-text-decoration: none;
 color: var(--primery-text-color);
 }
 .tel-nav:hover, .tel-nav:focus {
@@ -74,7 +71,7 @@ color: var(--primery-text-color);
 }
          /* main */
 .main-bg {
- background: #2F303A;
+ background: var(--footer-color);
  }
  .main-title { 
 font-weight: 900;
@@ -155,7 +152,6 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-text-decoration: none;
 color: var(--second-text-color);
   }
   .footer-link { 
@@ -163,7 +159,6 @@ font-size: 14px;
 font-style: normal;
 line-height: 1.71;
 letter-spacing: 0.03em;
-text-decoration: none;
 color: rgba(255, 255, 255, 0.6);
   }
    /* страница портфолио */
