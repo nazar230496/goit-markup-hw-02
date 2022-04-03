@@ -12,7 +12,10 @@ body {
     font-family: "Roboto",sans-serif;
     font-size: 14px;
 }
-ul {
+.link {
+    text-decoration: none;
+   }
+.list {
     list-style: none;
 
 }
@@ -192,7 +195,7 @@ color:var(--second-text-color);
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
    }
-
+   
 
 
 
